@@ -175,11 +175,11 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
 )
 # Google configuration
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '453293439718-hkqgoucgbauvjgnfq9rudappbra72inb.apps.googleusercontent.com'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'xrLecy1XQYsX-oI7Es8PylLe'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = 'your outh key'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'your key'
 # Facebook configuration
-SOCIAL_AUTH_FACEBOOK_KEY = '529014164791211'
-SOCIAL_AUTH_FACEBOOK_SECRET = 'ac328c12f0a00b0f0287e7ec728efd93'
+SOCIAL_AUTH_FACEBOOK_KEY = 'your key'
+SOCIAL_AUTH_FACEBOOK_SECRET = 'your key'
 
 # Define SOCIAL_AUTH_FACEBOOK_SCOPE to get extra permissions from Facebook.
 # Email is not sent by default, to get it, you must request the email permission.
@@ -192,8 +192,8 @@ SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'saikumar3512@gmail.com'
-EMAIL_HOST_PASSWORD = 'gzterugfowwzgsbk'
+EMAIL_HOST_USER = 'your gmail'
+EMAIL_HOST_PASSWORD = 'your password key'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'BlogsUser Team <noreply@BlogsUser.com>'
